@@ -8,4 +8,4 @@ dependencies:
 
 test:
     override:
-        - cd pfs && scripts/launch_test
+        - scripts/launch_test
