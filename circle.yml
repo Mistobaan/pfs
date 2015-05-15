@@ -1,7 +1,9 @@
+machine:
+    services:
+        - docker
+
 dependencies:
     pre:
-        - wget -qO- https://get.docker.com/ | sh
-        - sudo reboot
         - sudo apt-get update; sudo apt-get install btrfs-tools; btrfs --version
 
 test:
